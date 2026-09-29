@@ -1,0 +1,19 @@
+MemePulse V4.1 Raven upload
+
+Upload ONLY:
+  src/
+  test/
+  public/
+  package.json
+  README.md
+  DEPLOY-V4.1.txt
+
+Do NOT upload:
+  .env
+  data/
+  node_modules/
+  .git/
+
+V4.1 deliberately reuses data/state-v4-live.json so the observed V4 paper state
+can be preserved while the re-entry bug is fixed. To begin a completely fresh
+five-day run later, stop the server and remove only data/state-v4-live.json.
