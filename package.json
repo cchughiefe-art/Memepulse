@@ -1,12 +1,14 @@
 {
   "name": "memepulse",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "private": true,
   "description": "MemePulse V4.1 paper-only Solana memecoin execution simulator",
   "type": "module",
-  "engines": {"node": ">=22.9.0"},
+  "engines": {
+    "node": ">=22.9.0"
+  },
   "scripts": {
-    "start": "node --env-file-if-exists=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/ab-server.js",
     "test": "node --test"
   }
 }
